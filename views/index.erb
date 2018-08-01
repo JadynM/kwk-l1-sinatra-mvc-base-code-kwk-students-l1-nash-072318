@@ -1,1 +1,45 @@
 
+<html
+<head>
+  
+</head>
+
+<body>
+
+<h1>"Hello! This is an embedded ruby file"</h1>
+
+<p>
+  My name is <%=@name%>. 
+  <br>
+  I love Koding!!!
+</p>
+
+<p>I'm going to pick a number from 1 to 100.</p>
+
+<p><%=@rand=rand(1..100)%></p>
+
+<p>The random number i picked is <% if @rand%2==0 %></p>
+
+</p>even </p>
+   <%else%>
+   
+ <p> odd </p>
+ <%end%>
+<h1>challenge number 1</h1>
+<h1>total= <%=@num1 + @num2%></h1>
+
+
+
+<h1>challenge number 2</h1>
+<h1>My hometown is <%=@hometown%></h1>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
